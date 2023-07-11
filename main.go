@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 type CacheOptions struct {
+	Mock      bool
 	NoEncrypt bool
 }
 
